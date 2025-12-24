@@ -3,3 +3,10 @@
 color:#FFFFFF;
 font-family: "Lucida Console", monospace;
 }
+
+nav a {
+    font-weight: bold;
+}
+nav a:hover {
+    color: #C0C0CC;
+}
