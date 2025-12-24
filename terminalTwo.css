@@ -6,7 +6,8 @@ font-family: "Lucida Console", monospace;
 
 nav a {
     font-weight: bold;
+    color: dimgray;
 }
 nav a:hover {
-    color: #C0C0CC;
+    color: #C0C0C0;
 }
