@@ -2,4 +2,4 @@
 
 console.log('From the Console: Hello, javaScriptCartographer!');
 
-alert('Hello javaScriptCartographer!');
+alert('Hello, javaScriptCartographer!');
