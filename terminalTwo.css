@@ -49,7 +49,13 @@ footer {
     background-repeat: no-repeat; 
     width: 512px;
     height: 512px;
+    display: block;
 }
-
+.logoFont {
+    display: block;
+    justify-content: center;
+    font-size: 2em;
+    text-align: center;
+}
 
 
