@@ -8,6 +8,11 @@ nav a {
     font-weight: bold;
     color: goldenrod;
 }
+
 nav a:hover {
     color:  #C0C0C0;
+}
+
+footer {
+    font-size: .5em;
 }
