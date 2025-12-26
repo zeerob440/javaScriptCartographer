@@ -26,11 +26,6 @@ footer {
     padding-top: 5em;
 }
 
-h2, h3 {
-    display: block;
-    border: 1px dotted #FFFFFF;
-    padding: 4px;
-}
 .codeSpace {
     background-color: #012456;
     border: 1px solid gray;
@@ -40,8 +35,4 @@ h2, h3 {
 
 .codeSpace p {
     background-color: #012456;
-}
-
-.borderInLine {
-    display: inline-block;
 }
