@@ -38,3 +38,9 @@ h3 {
     padding: 4px;
     display: inline-block;
 }
+
+.codeSpace {
+    background-color: #012456;
+    border: 1px solid gray;
+    display: inline-block;
+}
