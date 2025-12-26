@@ -60,9 +60,14 @@ footer {
 
 table {
     width: 100%;
-    background-color: #012456;
     color: white;
     border-collapse: collapse;
     border: solid; 
+}
+
+tr {
+    border: solid;
+    border-collapse: collapse;
+    background-color: #012456;
 }
 
