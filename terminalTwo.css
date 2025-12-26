@@ -26,17 +26,11 @@ footer {
     padding-top: 5em;
 }
 
-
 h2, h3 {
     display: block;
-    border: 1px solid #FFFFFF;
+    border: 1px dotted #FFFFFF;
     padding: 4px;
 }
-
-h2, h3.border {
-    display: inline-block;
-}
-
 .codeSpace {
     background-color: #012456;
     border: 1px solid gray;
