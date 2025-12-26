@@ -60,7 +60,7 @@ footer {
 
 table {
     width: 100%;
-    color: white;
+    color: #FFFFFF;
     border-collapse: collapse;
     border: solid; 
 }
@@ -69,5 +69,7 @@ tr {
     border: solid;
     border-collapse: collapse;
     background-color: #012456;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
 }
 
