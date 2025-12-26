@@ -7,7 +7,7 @@ font-family: "Lucida Console", monospace;
 nav {
     border: 2px solid #FFFFFF;
     padding: 8px;
-    font-family: "OCR A Std", "OCR-A", monospace;
+    font-family:  monospace;
 }
 
 nav a {
@@ -28,11 +28,13 @@ footer {
 
 
 h2 {
-    border: 2px solid #FFFFFF;
+    border: 1px solid #FFFFFF;
     padding: 8px;
+    display: inline-block
 }
 
 h3 {
-    border: 2px solid #FFFFFF;
+    border: 1px solid #FFFFFF;
     padding: 8px;
+    display: inline-block;
 }
