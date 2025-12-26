@@ -41,3 +41,7 @@ h2, h3 {
 .codeSpace p {
     background-color: #012456;
 }
+
+.borderInLine {
+    display: inline-block;
+}
