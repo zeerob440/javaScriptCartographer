@@ -36,15 +36,19 @@ footer {
 .codeSpace p {
     background-color: #012456;
 }
+.javaScriptLogo-wrapper {
+    display: flex;
+    justify-content: center;
 
+}
 .javaScriptCartographerLogo {
     text-align: center;
     background-image: url("images/jSCartographerLogo512.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat; 
-    padding-bottom: 3em;
-    padding-top: 3em;
+    padding-bottom: 1em;
+    padding-top: 1em;
     width: 512px;
     height: 512px;
 }
