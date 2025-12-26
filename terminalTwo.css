@@ -8,6 +8,7 @@ nav a {
     font-weight: bold;
     color: darkslategray;
     background-color: #C0C0C0;
+    text-decoration: none;
 }
 
 nav a:hover {
