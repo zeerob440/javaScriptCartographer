@@ -43,8 +43,8 @@
 			</p>
 		</div>	
 		<p>
-			const is an immutable variable. It must be declared on one line. Use const to declare variables that should not change.
-			Example below.
+			const is an immutable variable. It must be declared on one line. Its scope is block only.
+			Use const to declare variables that should not change. Example below.
 		</p>
 		<div class="codeSpace">
 			<p>
@@ -54,15 +54,72 @@
 		<p>
 			var is the method used to declare a global variable is scope is the entire script. Example below:
 		</p>
+
 		<div class="codeSpace">
 			<p>
 				var global = "This variable is global to the entire script."
 			</p>
+
 		</div>	
-        <p>
+       
+		<p>
 		
             FIXME: add declarations, operators, datatypes, code blocks, syntax. 
         </p>
+
+		<h2>DATATYPES</h2>
+
+		<table>
+			<tr>
+				<th>Type</th>
+				<th>Python Equivalent</th>
+				<th>Example</th>
+				<th>Notes</th>
+			</tr>
+			<tr>
+				<td>String</td>
+				<td>string</td>
+				<td>let name = "Mia";</td>
+				<td>Can be declared with '' or ""</td>
+			</tr>
+			<tr>
+				<td>Number</td>
+				<td>int, float</td>
+				<td>let x = 5;</td>
+				<td>intNr=1; decNR= 1.1; expNR=1.1e15; hexNR=f; 0b101=5;</td>
+			</tr>
+			<tr>
+				<td>BigInt</td>
+				<td>N/A</td>
+				<td>let bigNr =12578811788185484n</td>
+				<td>used for numbers between 2^53-1 and -(2^53-1). Cannot mix datatypes.</td>
+			</tr>
+			<tr>
+				<td>Boolean</td>
+				<td>bool</td>
+				<td>let mybool= false; or let mybool = true;</td>
+				<td>true and false are lowercase in JS</td>
+			</tr>
+			<tr>
+				<td>Symbol</td>
+				<td>N/A</td>
+				<td>let compare = Symbol(5);</td>
+				<td>FIXME: More research required to define these.</td>
+			</tr>
+			<tr>
+				<td>Undefined</td>
+				<td>N/A</td>
+				<td> let dog; </td>
+				<td>output returns Undefined</td>
+			</tr>
+			<tr>
+				<td>Null</td>
+				<td>N/A</td>
+				<td>let loggedIN = null;</td>
+				<td>It means a variable has no value, but has been declared.</td>
+			</tr>
+
+		</table>
 		
 	
 			
