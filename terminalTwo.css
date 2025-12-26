@@ -35,4 +35,10 @@ footer {
 
 .codeSpace p {
     background-color: #012456;
+    border: none;
+}
+
+p {
+    border: 1px dotted #FFFFFF;
+    padding: 2px,
 }
