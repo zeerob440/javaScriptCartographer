@@ -33,6 +33,10 @@ h2, h3 {
     padding: 4px;
 }
 
+h2, h3.border {
+    display: inline-block;
+}
+
 .codeSpace {
     background-color: #012456;
     border: 1px solid gray;
