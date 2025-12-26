@@ -37,3 +37,11 @@ footer {
     background-color: #012456;
 }
 
+.javaScriptCartographerLogo {
+    text-align: center;
+    background-image: scr="images/jsCartographerlogo.png";
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
+
