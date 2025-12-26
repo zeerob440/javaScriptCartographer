@@ -65,7 +65,7 @@ table {
     border: solid; 
 }
 
-tr {
+td, th {
     border: solid;
     border-collapse: collapse;
     border: 1px solid #FFFFFF;
