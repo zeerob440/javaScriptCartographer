@@ -40,7 +40,7 @@ footer {
 .javaScriptCartographerLogo {
     text-align: center;
     background-image: scr="images/jSCartographerLogo512.png";
-    
+    background-size: 512px;
     padding-bottom: 3em;
     padding-top: 3em;
 }
