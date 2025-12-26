@@ -4,16 +4,20 @@ color:#FFFFFF;
 font-family: "Lucida Console", monospace;
 }
 
-nav a {
-    font-weight: bold;
-    color: #C0C0C0;
-    border: 2px solid #C0C0C0;
-    text-decoration: none;
+nav {
+    border: 2px solid #FFFFFF;
     padding: 8px;
 }
 
+nav a {
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
 nav a:hover {
-    color:  #FFFFFF;
+    color:  gray;
 }
 
 footer {
