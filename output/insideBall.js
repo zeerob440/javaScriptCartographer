@@ -8,7 +8,7 @@ function youreOutside()
             Greed -for lack of a better word- is good.
         </p>
         <p>
-            Wall Street 1987
+            Wall Street, 1987
         <p>
         `;
     }
