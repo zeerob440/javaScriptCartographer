@@ -1,5 +1,9 @@
 //This program introduces basic input with prompt
 
-let usr_letter =prompt("Please enter a letter: ");
+document.getElementById("prompt").addEventListener("click", runBasicInput);
 
-alert(`You entered: ${usr_letter}.`)
+function runBasicInput() 
+    {
+    let usr_letter =prompt("Please enter a letter: ");
+    alert(`You entered: ${usr_letter}.`);
+    }
