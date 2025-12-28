@@ -1,8 +1,8 @@
 //basic Javascript welcome program.
 
-document.getElementById("welcomeJSC").addEventListener("click", welcomeJSC);
+document.getElementById("welcomeJSC").addEventListener("click", welcomeJSCFun);
 
-function welcomeJSC()
+function welcomeJSCFun()
     {alert("Welcome to JavaScriptCartographer!");
 
     }
