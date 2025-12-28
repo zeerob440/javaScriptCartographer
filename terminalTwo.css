@@ -83,6 +83,10 @@ div {
     display: block;
 }
 
-pre {
+pre.codeSpace {
+    display: block;
+}
+
+pre.htmlSpace {
     display: block;
 }
