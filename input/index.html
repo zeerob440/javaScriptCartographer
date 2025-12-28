@@ -49,10 +49,33 @@
 			</div>
 		<h2>USING prompt()</h2>
 		<p>
-			The prompt() method is the most direct way to request user input, it populates in a popup, and functions,
+			The prompt() method is the most direct way to request user input. It populates in a popup, and functions,
 			similarly to the Python input() method. 
 		</p>
 		<h2>basicInput.js</h2>
+			<p>
+				This program uses the prompt() method to get input from the user. It is anchored in the head element with defer.
+
+			</p>
+			<div class="htmlSpace">
+				<p>
+					&lt;head&gt;<br>
+						&emsp;&lt;script src="basicInput.js" defer&gt;&lt;/script&gt;<br>	
+					&lt;head&gt;<br>
+					&lt;!-- The defer will make this load after the page loads, otherwise without defer it loads immediately.--&gt;
+				</p>
+			</div>
+			<div class="codeSpace">
+				<p>
+					document.getElementById("prompt").addEventListener("click", runBasicInput);
+
+					function runBasicInput() 
+    				{
+    					&emsp;let usr_letter =prompt("Please enter a letter: ");
+    					&emsp;alert(`You entered: ${usr_letter}.`);
+    				}
+				</p>
+			</div>
 		<button id="prompt">basicInput.js</button>
 		
 		<h3>prompt.js</h3>
