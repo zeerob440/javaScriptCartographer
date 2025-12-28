@@ -57,25 +57,24 @@
 				This program uses the prompt() method to get input from the user. It is anchored in the head element with defer.
 
 			</p>
-			<div class="htmlSpace">
-				<p>
-					&lt;head&gt;<br>
-						&emsp;&lt;script src="basicInput.js" defer&gt;&lt;/script&gt;<br>	
-					&lt;head&gt;<br>
-					&lt;!-- The defer will make this load after the page loads, otherwise without defer it loads immediately.--&gt;
-				</p>
-			</div>
-			<div class="codeSpace">
-				<p>
-					document.getElementById("prompt").addEventListener("click", runBasicInput);<br>
+<pre class="htmlSpace">
+			
+&lt;head&gt;<br>
+	&lt;script src="basicInput.js" defer&gt;&lt;/script&gt;<br>	
+&lt;head&gt;<br>
+&lt;!-- The defer will make this load after the page loads, otherwise without defer it loads immediately.--&gt;
+				
+</pre>
+<pre class="codeSpace">
+				
+document.getElementById("prompt").addEventListener("click", runBasicInput);<br>
 
-					function runBasicInput()<br> 
-    				&emsp;{
-    					&emsp;let usr_letter =prompt("Please enter a letter: ");<br>
-    					&emsp;alert(`You entered: ${usr_letter}.`);<br>
-    				&emsp;}
-				</p>
-			</div>
+function runBasicInput()
+    {
+    	let usr_letter =prompt("Please enter a letter: ");<br>
+    	alert(`You entered: ${usr_letter}.`);<br>
+    }
+</pre>
 			<div>
 				<button id="prompt">basicInput.js</button>
 			</div>
