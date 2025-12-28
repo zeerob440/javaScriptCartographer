@@ -80,4 +80,9 @@ td, th {
 div {
     margin-top: 16px;
     margin-bottom: 16px;
+    display: block;
+}
+
+pre {
+    display: block;
 }
