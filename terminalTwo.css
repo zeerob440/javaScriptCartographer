@@ -33,9 +33,6 @@ footer {
     padding: 2px;
 }
 
-.codeSpace p {
-    background-color: #012456;
-}
 .javaScriptLogo-wrapper {
     display: flex;
     justify-content: center;
@@ -79,11 +76,6 @@ td, th {
     padding: 2px;
     color: #33FF33;
 }
-
-/*.htmlSpace p {
-    background-color: #0B1C0B;
-    color:#33FF33;
-}*/
 
 div {
     margin-top: 16px;
