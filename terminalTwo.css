@@ -83,10 +83,8 @@ div {
     display: block;
 }
 
-pre.codeSpace {
-    display: block;
-}
-
-pre.htmlSpace {
-    display: block;
+pre.codeSpace,pre.htmlSpace {
+    display: inline-block;
+    width: fit-content;
+    max-width: 100%;
 }
