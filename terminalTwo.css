@@ -72,3 +72,13 @@ td, th {
     padding: 10px;
 }
 
+.htmlSpace {
+    background-color: #0B1C0B;
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 2px;
+}
+
+.htmlSpace p {
+    background-color: #0B1C0B;
+}
