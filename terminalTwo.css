@@ -84,3 +84,7 @@ td, th {
     background-color: #0B1C0B;
     color:#33FF33;
 }
+button {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
