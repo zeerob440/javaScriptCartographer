@@ -27,11 +27,34 @@
 	</nav>
 	</header>
 	<main>
+		<h2>GENERAL INPUT INFORMATION</h2>
+			<p>
+				Inputs are built by HTML and JavaScript to work together. HTML anchors the JavaScript and 
+				JavaScript executes the logic. User inputs are always treated as strings in JavaScript, just like
+				in Python. FIXME: ADD INPUT METHODS
+			</p>
+		<h2>JAVASCRIPT ANCHOR POINTS IN HTML</h2>
+			<p>
+				JavaScript is often anchored in the &lt;head&gt; elements. If the script is not anchored with defer
+				it will run as soon as the page is loaded by the browser. 
+			</p>
+			<h3>EXAMPLE OF ANCHORING A SCRIPT IN HTML</h3>
+			<div class="htmlSpace">
+				<p>
+					&lt;head&gt;
+						&lt;script src="basicInput.js" defer&gt;&lt;/script&gt;	
+					&lt;head&gt;
+					&lt;!-- The defer will make this load after the page loads--&gt;
+				</p>
+			</div>
 		<h2>USING prompt()</h2>
-		<button id="prompt">Prompt.js</button>
 		<p>
-			This page 
+			The prompt() method is the most direct way to request user input, it populates in a popup, and functions,
+			similarly to the Python input() method. 
 		</p>
+		<h2>basicInput.js</h2>
+		<button id="prompt">basicInput.js</button>
+		
 		<h3>prompt.js</h3>
 			<div class ="codeSpace">
 				<p>
