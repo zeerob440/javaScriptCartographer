@@ -77,8 +77,10 @@ td, th {
     border: 1px solid gray;
     display: inline-block;
     padding: 2px;
+    color: #33FF33;
 }
 
 .htmlSpace p {
     background-color: #0B1C0B;
+    color:#33FF33;
 }
