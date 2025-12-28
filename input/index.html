@@ -5,18 +5,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--Sets a good baseline screen optimiztion method-->
-	<title>javaScriptCartographer:Template Literal</title>
+	<title>javaScriptCartographer:Inputs</title>
 	<meta name="description" content="An application for learning frontend development and JavaScript">
 	<link rel="icon" type="image/png" href="../images/jsCartographer4_32.png">
 	<!--Above is code for favicon to displays in tab-->
 	<link rel="stylesheet" href="../terminalTwo.css">
-	<script src="tLiteral.js"></script>
+	<script></script>
 	<!--link JavaScript here if needed, defer is helpful here.-->
 </head>
 
 <body>
 	<header>
-	<h1>File Management<h1>
+	<h1>Output<h1>
 	<nav>
 		<a href="../index.html">Home</a>
         <a href="../file-management/index.html">File Management</a>
@@ -24,27 +24,39 @@
         <a href="../template-literal/index.html">T-Literal</a>
 		<a href="../output/index.html">Output</a>
 		<a href="../input/index.html">Input</a>
-		
 	</nav>
 	</header>
 	<main>
-		<h2>TEMPLATE LITERAL (f-string)</h2>
+		<h2>USING prompt()</h2>
 		<p>
-			Template Literals are the JavaScript equivalent of f-strings in Python.
+			This page "output/index.html", sits in the folder "output". with program "alert.js". alert.js uses console.log and alert()
+			to output a message in the dev tools console and to send a popup to the user. 
 		</p>
-		<h2>tLiteral.js</h2>
-		<div class="codeSpace">
-			<p>
-				let bestCity = 'Miami';<br>
+		<h3>alert.js</h3>
+			<div class ="codeSpace">
+				<p>
+				console.log('From the Console: Hello, javaScriptCartographer!');<br>
+				<br>
+				alert('Hello, javaScriptCartographer!');
+				</p>
+			</div>
+		<h3>alert</h3>
+		<p>
 
-				/*Template literals are like Python f-strings, but f' is replaced by ``, and {} is replaced by ${}*/<br>
-				let popup = `The best city on the planet is ${bestCity} dale!`;<br>
+			alert is used to program a popup on a website. Such as:
 
-				console.log(popup); // outputs to console.<br>
-				alert(popup); // outputs via popup tot user.<br>
-			</p>
-		</div>
-				
+			alert('Hello, javaScriptCartographer!'); 
+		</p>
+
+		<h3>console.log</h3>
+
+		<p>
+			console.log is used to print to the browser console. It works nearly equivalent to the Python print() method Such as:<br>
+
+			console.log('From the Console: Hello, javaScriptCartographer!');
+		</p>
+		
+
 	</main>
 	<footer>
 	<p>javaScriptCartographer, Proudly Engineered by Zachary Roberts 22 DEC 2025.</p>
