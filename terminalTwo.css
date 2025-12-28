@@ -88,3 +88,12 @@ pre.codeSpace,pre.htmlSpace {
     width: fit-content;
     max-width: 100%;
 }
+
+button {
+    background-color:#C0C0C0;
+    color:#0000AA;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+}
