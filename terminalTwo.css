@@ -83,7 +83,7 @@ div {
     display: block;
 }
 
-pre.codeSpace,pre.htmlSpace {
+pre.codeSpace, pre.htmlSpace, pre.innerHTMLSpace {
     display: block;
     width: fit-content;
     max-width: 100%;
@@ -100,4 +100,12 @@ button {
 
 button:hover {
     background-color: #FFFFFF;
+}
+
+.innerHTMLSpace {
+    background-color: #0000AA;
+    border: 1px solid #000000;
+    display: inline-block;
+    padding: 2px;
+    color: #FFFFFF;
 }
