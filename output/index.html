@@ -77,10 +77,42 @@ alert('Hello, javaScriptCartographer!');
 
 		<h2>OUTPUT WITH innerHTML</h2>
 			<p>
-				innerHTML is a method of inserting HTML code directly onto page. 
+				innerHTML is a method of inserting HTML code directly onto page. The example below will print directly to the page. I 
+				took this quote from Wall Street (the real one 1987) because innerHTML seems like cheating. You're putting HTML inside
+				a JavaScript program and outputting it to HTML files.
 			</p>
+<pre src="codeSpace">
+//A simple innerHtml program.
+document.getElementById("insideBallBTN").addEventListener("click",youreOutside);
+
+function youreOutside()
+        {document.getElementById("ifYoureNotInside").innerHTML = // multiple line strings must be between ``
+        //once innerHTML is invoked, output is written in HTML>
+        `<p>
+            The point is, ladies and gentlemen,<br>
+            greed -for lack of a better word- is good.
+        </p>
+        <p>
+            Wall Street, 1987
+        <p>
+        `;
+    }
+</pre>
+
+<pre src="htmlSpace">
+
+&lt;head&gt;
+	&lt;script src="insideBall.js" defer&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;div&gt;
+			&lt;button id="insideBallBTN">insideBall.js&lt;/button&gt;
+		&lt;/div&gt;
+
+		&lt;div class="innerHTMLSpace" id="ifYoureNotInside"&gt;&lt;/div&gt;
+
+</pre>
 		
-			<p>FIXME ADD CODESPACE AND HTML SPACE DESCRIBE IT TELL USER TO PRESS BUTTON</p>
 		<div>
 			<button id="insideBallBTN">insideBall.js</button>
 		</div>
