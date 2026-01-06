@@ -99,7 +99,7 @@ var global = "This variable is global to the entire script.";
 				<td>Boolean</td>
 				<td>bool</td>
 				<td>let mybool= false; or let mybool = true;</td>
-				<td>true and false are lowercase in JS</td>
+				<td>true and false are lowercase in JavaScript.</td>
 			</tr>
 			<tr>
 				<td>Symbol</td>
@@ -136,7 +136,7 @@ const blackDog = "Rico is my dog.\nHe is all black."
 //linebreak
 
 const  whiteDog = "Mia is my wife's dog.\n\n.She is all white."
-///n/n breaks lines and adds a blank space below the break.
+// /n/n breaks lines and adds a blank space below the break.
 </pre>
 
 		<h2>Converting Data Types</h2>
@@ -144,9 +144,21 @@ const  whiteDog = "Mia is my wife's dog.\n\n.She is all white."
 		<p>
 			Converting data types is a common workflow in all programming languages. JavaScript has an interesting nuance where
 			'String-Numbers' such as "4" can conduct math operations (*, -, /, and %) with Number data type such as 5. So "4" * 5 = 20 the Number
-			in JavaScript! However, if "4" + 5 were used, it would concatenate them into the String "45"!
+			in JavaScript! However, if "4" + 5 were used, it would concatenate them into the String "45"! 
 		</p>
+		
+		<p> 
+			To add a String and a Number and avoid concatenation, the string must be converted to a number in the operation such that:
+		</p>
+<pre class="codeSpace">
 
+let myNewNum = 4;
+let myStringNum = "4";
+console.log( myNewNum + Number(myStringNum));
+
+// this outputs 8
+
+</pre>
 
 
 		
