@@ -56,9 +56,11 @@ javaScriptCartographer/
 ├── terminalTwo.css
 ├── welcomeJSC.js
 ├── gitattributes
+├── nodejs_scripts/
+|   └── #simple scripts go here not running on site
 ├── basics/
 │   └── index.html
-├── file-managment/
+├── file-management/
 |   └── index.html
 ├── images/
 │   └── # all media stored here
