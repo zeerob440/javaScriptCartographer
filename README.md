@@ -14,53 +14,64 @@
 
 ### 1A FUNCTION DESCRIPTION MANUAL
 
-javaScriptCartographer is a website that teaches how to use JavaScript by simple example
+javaScriptCartographer is a website that teaches how to use JavaScript by simple examples. The user simply navigates to pages that contain examples of JavaScript they would like to review.
 
 ### 1B INSTALLATION MANUAL
-- LIST REQUIREMENTS FOR INSTALLATION
-- EXPLAIN HOW TO INSTALL
-- USE ANNOTATION SCREEN SHOTS
+- N/A
 
 ### 1C INTRODUCTORY MANUAL
 
-- EXPLAIN HOW TO USE SYSTEM IN SIMPLE TERMS
-- USE ANNOTATED SCREEN SHOTS
+javaScriptCartographer is a website that teaches how to use JavaScript by simple examples. The user simply navigates to pages that contain examples of JavaScript they would like to review.
 
 ### 1D REFERENCE MANUAL
-- DESCRIBE ALL SYSTEM FACULTIES TO USER AND HOW TO USE THEM
 
+javaScriptCartographer is a series of webpages as follows:
+- basics
+- file management
+- T-Literal
+- Output
+- Input
+- Home
 
 ### 1E SYSTEM ADMINISTRATORS MANUAL
 
-- DESCRIBE SYSTEM HOUSEKEEPING TASKS
-- DESCRIBE SYSTEM MAINTENANCE PROCEDURES
-- IF ADMIN NOT REQUIRED
 NOT APPLICABLE. SYSTEM GOVERNANCE IS DEFINED BY ADMINISTRATOR'S ORGANIZATION BUSINESS RULES.
 
 ## 2 SYSTEM DOCUMENTATION
 
 ### 2A SYSTEM DEPENDENCIES MANUAL
- - LIST DEPENDENCIES 
+ - A computer with internet access
 
 ### 2B SYSTEM ARCHITECTURE MANUAL
 
 #### DESCRIPTION
-Plain text description here.
+javaScriptCartographer is a website with hub and spoke architecture. Each lesson is a separate html page named index.html, each page lives in a uniquely named directory. This design was chosen because javaScriptCartographer is intended to be continuously developed as my skills in the language grows. This allows for new directories to be added over time as the project matures. Each directory is intended to contain all JavaScript programs that are featured on the html page inside. This allows the user to inspect the individual programs that can be executed on the page.
 
 #### DIRECTORY ARCHITECTURE
 
 ```text
-example_project_name/
+javaScriptCartographer/
 ├── README.md
-├── docs/
-│   ├── installation_manual.md
-│   ├── user_manual.md
-│   └── system_manual.md
-├── src/
-│   ├── main.py
-│   └── utilities.py
-└── tests/
-    └── test_main.py
+├── index.html
+├── terminalTwo.css
+├── welcomeJSC.js
+├── gitattributes
+├── basics/
+|   ├── basicinput.js
+│   └── index.html
+├── file-managment/
+|   └── index.html
+├── images/
+│   └── # all media stored here
+├── input/
+|   └── index.html
+├── output/
+|   ├──insideBall.js
+|   ├── alert.js
+|   └── index.html
+├──template-literal/
+|  ├── tLiteral.js
+|  └── index.html
 ```
 
 ### 2C SYSTEM DECOMPOSITION MANUAL
