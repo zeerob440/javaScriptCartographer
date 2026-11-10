@@ -1,4 +1,4 @@
-# SOFTWARE DOCUMENTATION
+# javaScriptCartographer
 | FIELD          | VALUE                |
 |:----------------:|:------------------:|
 |SOFTWARE NAME  |  javaScriptCartographer                     |
@@ -93,4 +93,4 @@ javaScriptCartographer/
 
 |REQUIREMENT SPECIFICATION|TEST NAME|TEST SPECIFICATION                         |FUNCTIONS AS DESIGNED DATE|
 |:------------------------|:--------|:------------------------------------------|:-------------------------|
-|The system only accepts military time.| T1 MILTIME| Test all inputs for miltime with invalid entries.| 26 APR 1979|
+|| | | 26 APR 1979|
