@@ -57,13 +57,13 @@ javaScriptCartographer/
 ├── welcomeJSC.js
 ├── gitattributes
 ├── basics/
-|   ├── basicinput.js
 │   └── index.html
 ├── file-managment/
 |   └── index.html
 ├── images/
 │   └── # all media stored here
 ├── input/
+|   ├── basicinput.js
 |   └── index.html
 ├── output/
 |   ├──insideBall.js
@@ -78,7 +78,10 @@ javaScriptCartographer/
 
 | PROGRAM       | PURPOSE              | FUNCTIONS                | CLASSES      | LIBRARIES             |
 |:-------------|:---------------------|:--------------------------|:------------|:----------------------|
-|example.py|Provides examples for documentation.| examples(num), lookup()| Examples, Nav| hashlib, math|
+|basicinput.js|teaches basic JavaScript input methods| | | |
+|insideBall.js|example of innerHTML output||||
+|alert.js|example of popup||||
+|tLiteral.js|example of how to use t-literal||||
 
 #### UNIT DESCRIPTION MANUAL
 
